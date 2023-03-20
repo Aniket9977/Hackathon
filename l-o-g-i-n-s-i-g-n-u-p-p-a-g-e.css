@@ -1,0 +1,101 @@
+.fooshu-textbox,
+.fooshu3 {
+  position: absolute;
+  height: 47px;
+}
+.fooshu-textbox {
+  top: 93px;
+  left: 110px;
+  background-color: #dd3140;
+  width: 143px;
+}
+.fooshu3 {
+  top: 105px;
+  left: 131px;
+  display: inline-block;
+  font-weight: 600;
+  width: 101px;
+}
+.text-box {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-white);
+  position: absolute;
+  top: 302px;
+  left: 59px;
+  width: 268px;
+  height: 52px;
+}
+.indias-no1-food {
+  position: absolute;
+  top: 300px;
+  left: 46px;
+  display: inline-block;
+  font-weight: 800;
+  color: var(--color-black);
+  width: 281px;
+  height: 54px;
+}
+.continue-box {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: #d92e3e;
+  position: absolute;
+  top: 463px;
+  left: 11px;
+  border-radius: var(--br-31xl);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25) inset;
+  width: 337px;
+  height: 52px;
+}
+.continue {
+  position: absolute;
+  top: 477px;
+  left: 135px;
+  font-family: var(--font-grandstander);
+}
+.google-redirect-icon {
+  position: absolute;
+  top: 554px;
+  left: 131px;
+  width: 41px;
+  height: 42px;
+  cursor: pointer;
+}
+.login-signup-page-child {
+  position: absolute;
+  top: 473px;
+  left: -620px;
+  width: 71px;
+  height: 38px;
+}
+.login-signup-page-item {
+  position: absolute;
+  top: 22px;
+  left: 22px;
+  width: 45px;
+  height: 45px;
+}
+.login-signup-page-inner {
+  position: absolute;
+  top: 32.95px;
+  left: 33.5px;
+  width: 25.5px;
+  height: 22.09px;
+}
+.login-signup-page {
+  position: relative;
+  width: 100%;
+  height: 640px;
+  overflow: hidden;
+  background-image: url(./public/signuo-pg-img@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

@@ -1,0 +1,128 @@
+.whatsapp-image-2023-03-20-at-11 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 423px;
+  height: 892px;
+  object-fit: cover;
+}
+.hunger-heroes-page-child {
+  position: absolute;
+  top: 61px;
+  left: 27px;
+  background-color: var(--color-crimson-100);
+  width: 305px;
+  height: 379px;
+}
+.hunger-heroes-page-item {
+  position: absolute;
+  top: 71px;
+  left: 0;
+  background-color: var(--color-gainsboro-200);
+  width: 360px;
+  height: 44px;
+}
+.hunger-heroes-page-inner {
+  position: absolute;
+  top: 80px;
+  left: 399px;
+  width: 360px;
+  height: 44px;
+}
+.hunger-heroes {
+  position: absolute;
+  top: 80px;
+  left: 119px;
+  font-weight: 600;
+}
+.hunger-heroes-page-child1 {
+  position: absolute;
+  top: 473px;
+  left: -620px;
+  width: 71px;
+  height: 38px;
+}
+.hunger-heroes-page-child2 {
+  position: absolute;
+  top: 22px;
+  left: 22px;
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+}
+.hunger-heroes-page-child3 {
+  position: absolute;
+  top: 32.95px;
+  left: 33.5px;
+  width: 25.5px;
+  height: 22.09px;
+}
+.hunger-heroes-page-child4 {
+  top: 384px;
+}
+.hunger-heroes-page-child4,
+.hunger-heroes-page-child5,
+.hunger-heroes-page-child6 {
+  position: absolute;
+  left: -3px;
+  background-color: var(--color-gainsboro-300);
+  border: 3px solid var(--color-crimson-200);
+  box-sizing: border-box;
+  width: 366px;
+  height: 100px;
+}
+.hunger-heroes-page-child5 {
+  top: 282px;
+}
+.hunger-heroes-page-child6 {
+  top: 180px;
+}
+.namita-das {
+  margin: 0;
+}
+.mg-45-shant {
+  margin: 0;
+  color: var(--color-lightgray);
+}
+.gayatri-neman-k-59-container,
+.namita-das-mg-container {
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  font-weight: 600;
+}
+.namita-das-mg-container {
+  top: 190px;
+  width: 348px;
+  height: 75px;
+}
+.gayatri-neman-k-59-container {
+  top: 286px;
+  width: 360px;
+  height: 85px;
+}
+.h-44-gokalpur {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.69);
+}
+.sumitra-saxena-h-44-container {
+  position: absolute;
+  top: 384px;
+  left: 0;
+  display: inline-block;
+  font-weight: 600;
+  white-space: pre-wrap;
+  width: 360px;
+  height: 89px;
+}
+.hunger-heroes-page {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 640px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

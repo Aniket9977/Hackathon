@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./m-a-i-n-p-a-g-e.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@1,600;1,800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Grandstander:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="mainpage">
+      <img
+        class="selector-page-1-icon"
+        alt=""
+        src="./public/selector-page-1@2x.png"
+      />
+      <div class="rectangle"></div>
+      <img
+        class="platepass-icon"
+        alt=""
+        src="./public/platepass.svg"
+        id="pLATEPASSImage"
+      /><i class="platepass2">PLATEPASS</i
+      ><img
+        class="mainpage-child"
+        alt=""
+        src="./public/rectangle-17.svg"
+        id="rectangleImage"
+      /><button class="hungerheroes" id="hUNGERHEROES"></button
+      ><i class="hungerheroes1">HUNGERHEROES</i
+      ><button class="checkmate-box" id="cHECKMATEBOX"></button
+      ><button
+        class="discountdetective-box"
+        autofocus
+        id="dISCOUNTDETECTIVEBOX"
+      ></button
+      ><i class="discount-detective1">DISCOUNT DETECTIVE</i
+      ><i class="checkmate1">CHECKMATE</i
+      ><i class="feed-furry-friends1" id="fEEDFURRYFRIENDS"
+        >FEED FURRY FRIENDS</i
+      ><img class="mainpage-item" alt="" src="./public/ellipse-5.svg" /><img
+        class="mainpage-inner"
+        alt=""
+        src="./public/ellipse-6.svg"
+        id="ellipseIcon"
+      /><img class="mainpage-child1" alt="" src="./public/arrow-1.svg" />
+    </div>
+
+    <script>
+      var pLATEPASSImage = document.getElementById("pLATEPASSImage");
+      if (pLATEPASSImage) {
+        pLATEPASSImage.addEventListener("click", function (e) {
+          window.location.href = "./p-l-a-t-e-p-a-s-s-p-a-g-e.html";
+        });
+      }
+      
+      var rectangleImage = document.getElementById("rectangleImage");
+      if (rectangleImage) {
+        rectangleImage.addEventListener("click", function (e) {
+          window.location.href = "./f-e-e-d-f-u-r-y-f-r-i-e-n-d-s.html";
+        });
+      }
+      
+      var hUNGERHEROES = document.getElementById("hUNGERHEROES");
+      if (hUNGERHEROES) {
+        hUNGERHEROES.addEventListener("click", function (e) {
+          window.location.href = "./h-u-n-g-e-r-h-e-r-o-e-s-p-a-g-e.html";
+        });
+      }
+      
+      var cHECKMATEBOX = document.getElementById("cHECKMATEBOX");
+      if (cHECKMATEBOX) {
+        cHECKMATEBOX.addEventListener("click", function (e) {
+          window.location.href = "./c-h-e-c-k-m-a-t-e-p-a-g-e.html";
+        });
+      }
+      
+      var dISCOUNTDETECTIVEBOX = document.getElementById("dISCOUNTDETECTIVEBOX");
+      if (dISCOUNTDETECTIVEBOX) {
+        dISCOUNTDETECTIVEBOX.addEventListener("click", function (e) {
+          window.location.href = "./d-i-s-c-o-u-n-t-d-e-t-e-c-t-i-v-e-p-a-g-e.html";
+        });
+      }
+      
+      var fEEDFURRYFRIENDS = document.getElementById("fEEDFURRYFRIENDS");
+      if (fEEDFURRYFRIENDS) {
+        fEEDFURRYFRIENDS.addEventListener("click", function (e) {
+          window.location.href = "./f-e-e-d-f-u-r-y-f-r-i-e-n-d-s.html";
+        });
+      }
+      
+      var ellipseIcon = document.getElementById("ellipseIcon");
+      if (ellipseIcon) {
+        ellipseIcon.addEventListener("click", function (e) {
+          window.location.href = "./t-h-i-r-d-p-a-g-e.html";
+        });
+      }
+      </script>
+  </body>
+</html>

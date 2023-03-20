@@ -1,0 +1,134 @@
+.selector-page-1-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 28px;
+  width: 390px;
+  height: 687px;
+  object-fit: cover;
+}
+.rectangle {
+  position: absolute;
+  top: 130px;
+  left: 62px;
+  background-color: var(--color-crimson-100);
+  width: 268px;
+  height: 338px;
+}
+.platepass-icon {
+  position: absolute;
+  top: 316px;
+  left: 56px;
+  border-radius: var(--br-31xl);
+  width: 225px;
+  height: 41px;
+  cursor: pointer;
+}
+.platepass2 {
+  position: absolute;
+  top: 324px;
+  left: 111px;
+  font-weight: 600;
+}
+.hungerheroes,
+.mainpage-child {
+  position: absolute;
+  border-radius: var(--br-31xl);
+  width: 225px;
+  height: 44px;
+  cursor: pointer;
+}
+.mainpage-child {
+  top: 472px;
+  left: 62px;
+}
+.hungerheroes {
+  border: 0;
+  padding: 0;
+  background-color: var(--color-wheat-100);
+  top: 394px;
+  left: 57px;
+}
+.hungerheroes1 {
+  position: absolute;
+  top: 403px;
+  left: 88px;
+  font-weight: 600;
+}
+.checkmate-box,
+.discountdetective-box {
+  cursor: pointer;
+  padding: 0;
+  background-color: var(--color-wheat-100);
+  position: absolute;
+  left: 56px;
+  border-radius: var(--br-31xl);
+  width: 225px;
+  height: 44px;
+}
+.checkmate-box {
+  border: 0;
+  top: 225px;
+}
+.discountdetective-box {
+  border: 1px solid var(--color-black);
+  top: 144px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+}
+.discount-detective1 {
+  position: absolute;
+  top: 157px;
+  left: 59px;
+  display: inline-block;
+  font-weight: 600;
+  width: 224px;
+  height: 34px;
+}
+.checkmate1,
+.feed-furry-friends1 {
+  position: absolute;
+  top: 235px;
+  left: 105px;
+  font-weight: 600;
+}
+.feed-furry-friends1 {
+  top: 482px;
+  left: 69px;
+  cursor: pointer;
+}
+.mainpage-inner,
+.mainpage-item {
+  position: absolute;
+}
+.mainpage-item {
+  top: 473px;
+  left: -620px;
+  width: 71px;
+  height: 38px;
+}
+.mainpage-inner {
+  top: 22px;
+  left: 22px;
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+}
+.mainpage-child1 {
+  position: absolute;
+  top: 32.95px;
+  left: 33.5px;
+  width: 25.5px;
+  height: 22.09px;
+}
+.mainpage {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 640px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
